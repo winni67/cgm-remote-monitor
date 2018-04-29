@@ -7,7 +7,6 @@ var moment = require('moment');
 var ctx = {
   language: require('../lib/language')()
 };
-ctx.language.set('en');
 var env = require('../env')();
 var loop = require('../lib/plugins/loop')(ctx);
 var sandbox = require('../lib/sandbox')();
